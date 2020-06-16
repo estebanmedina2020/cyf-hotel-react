@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "./Heading";
+import Header from "./component/Header";
 import Bookings from "./Bookings";
 import TouristInfoCards from "./TouristInfoCards";
 import Footer from "./Footer";
@@ -40,7 +40,7 @@ const App = () => {
   ];
   return (
     <div className="App">
-      <Heading />
+      <Header />
       <Bookings />
       <TouristInfoCards cities={cities} />
       <Footer AdreessFooter={AdreessFooter} />
